@@ -2,9 +2,10 @@
   "name": "hackathone",
   "version": "1.0.0",
   "description": "a backend at saylani hackathone",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javaScript",
@@ -12,5 +13,8 @@
     "hackathone"
   ],
   "author": "Muhhammad Wajahat Ali Mughal",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
